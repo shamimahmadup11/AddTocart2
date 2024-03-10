@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: centr;
+    gap: 30px;
+    margin: 100px 300px;
+}
+.Items{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+  
+}
+.cart{
+    min-height: 400px;
+    height: auto;
+    width: 400px;
+    border: 1px solid black;
+
+}
+.cart div{
+    margin: 15px 15px 15px 15px;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 201, 234);
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.item1{
+    margin: 15px 15px 15px 15px;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 201, 234);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.item3{
+    margin: 15px 15px 15px 15px;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 201, 234);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.item2{
+    margin: 15px 15px 15px 15px;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 201, 234);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.increamentAndDecrement{
+    width: 100px;
+    height: 40px;
+     background-color: rgb(12, 111, 211);
+     border-radius: 10px;
+     padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.taotal{
+    height: 60px;
+    width: 100%;;
+    background-color: rgb(12, 111, 211);
+    display: flex;
+    margin-top: 30px;
+    
+}
